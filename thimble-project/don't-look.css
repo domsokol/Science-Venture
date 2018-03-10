@@ -1,0 +1,73 @@
+/*
+This is a Cascading Style Sheet (CSS).
+It describes rules for styling your HTML markup.
+
+To use this file, place the following <link> tag anywhere in the <head> of your HTML file, making sure that the filename after "href" matches the name of your file....
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+Learn more about CSS at https://developer.mozilla.org/en-US/docs/Web/Guide/CSS
+
+When you're done, you can delete all of this grey text, it's just a comment.
+*/
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+
+
+
+/*
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: ;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+*/
+
+
+.contain {
+  position: relative;
+  width: 100%;
+  height: 0%;
+  padding-bottom: 56.25%;
+
+}
+
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold; 
+  
+}
+
+
+/*.blink {
+  animation: flash 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+  0%   {opacity: 1}
+  100% {opacity: 0}
+}
+*/
+
+
