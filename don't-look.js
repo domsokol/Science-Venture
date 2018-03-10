@@ -2,7 +2,7 @@
 
 
 function start() {
-  while true {
+  while(true) {
     
     setTimeout(function(){
 
